@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+<style>
+       a {
+      padding: 10px;
+      color: white;
+      background-color: pink;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: purple;
+    }
+    /* Unvisited link */
+    a:link {
+      color: grey; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: grey;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: red;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+    section{
+    padding:150px;
+    }
+        footer{
+  background-color:burlywood;
+  padding: 20px;
+}
+  </style>
+  
+
+<header>
+</head>
+  <body style="background-image: url('./images/ucb-robot-vr.jpg');">
+   <ul style="list-style-type: none; padding: 0;">
+     <li style="display: inline; margin-right: 10px;">
+    <img src="./images/images.jpeg" width="90" height="60" alt="Logo">
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">ABOUT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">CONTACT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./attendees.php">attendees</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./certificates.php">certificates</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./feedback.php">feedback</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./instructors.php">instructors</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./instructorworkshops.php">instructorworkshops</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./roboticsresources.php">roboticsresources</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./workshopattendances.php">workshopattendances</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./workshopregistration.php">workshopregistration</a>
+  </li>
+  <li style="display: inline; margin-right: 10px;"><a href="./workshops.php">workshops</a>
+  </li>
+    
+  
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: skyblue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Use other account</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+  </ul>
+
+  <!-- <div class="col-3 offset">-->
+  <form class="d-flex" role="search" action="search.php">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+  </header>
+
+  <center>
+    <section id="home" style="display: block;">
+      <h1>WELCOME TO VIRTUAL ROBOTICS TRAINING PLATFORM</h1>
+    </section>
+  </center>
+  
+  <marquee><h1><i style="color: grey;">&copy; 2024</i></h1></i><b><h1>WEB TECHNOLOGY EXAM</h1></b></marquee>
+  <footer>
+  <center> 
+    <b><h2><i>UR CBE BIT &copy, prepared by Alice</h2></b></i>
+  </center>
+</footer>
+</body>
+</html>
